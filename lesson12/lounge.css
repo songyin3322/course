@@ -1,0 +1,23 @@
+p{
+  color: maroon;
+  font-size: 2vw;
+}
+h1, h2{
+  color:grey;
+  font-size: 1.4rem;
+}
+h1{
+  font-size: 2rem;
+  border-bottom: 1px solid black;
+  
+}
+body{
+  font-family: Arial;
+ }
+em{
+  font-family: "Cascadia Mono";
+}
+html{
+  font-size: 20px;
+}
+
