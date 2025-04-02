@@ -4,7 +4,7 @@ body {
   }
 
 h1, h2 {
-	color: #007e7e; 
+	color: #007e7e;
 }
 
 h1 {
@@ -35,4 +35,28 @@ h2 {
 P{
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
+}
+
+.elixirs {
+  border-width: thin;
+  border-style: solid;
+  border-color: #007e7e;
+  width: 200px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-left: 20px;
+  background-image: url(images/cocktail.gif);
+  background-repeat: repeat-x;
+  text-align: center;
+  line-height: 1;
+}
+div h2{
+  color:black;
+}
+.elixirs h2{
+  color: black;
+}
+.elixirs >h3{
+  color:#d12c47;
 }
