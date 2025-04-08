@@ -5,11 +5,11 @@ body {
 
 h1, h2 {
 	color: #007e7e;
-}
+ }
 
 h1 {
 	font-size: 1.5em;
-}
+  }
 
 h2 {
 	font-size: 1.3em;
@@ -59,4 +59,29 @@ div h2{
 }
 .elixirs >h3{
   color:#d12c47;
+}
+
+
+.test{
+  color:gold
+}
+
+h1, h2 {
+  font-weight: 600;
+}
+
+h1 {
+  font-weight: 200;
+}
+p{
+  color:red;
+}
+body p{
+  color:blue;
+}
+p.cname{
+  color:green;
+}
+p#iname{
+  color:purple;
 }
