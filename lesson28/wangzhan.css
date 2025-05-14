@@ -15,9 +15,11 @@ body {
 
 h1 {
     color: #000; 
-    border-right: 2px solid #003366; 
-    padding-right: 10px; 
-    border-bottom: none; 
+    /* 修改为底部边框 */
+    border-bottom: 2px solid #003366; 
+    border-right: none;
+    padding-bottom: 10px; 
+    padding-right: 0; 
     text-align: right; 
     margin-bottom: 0; /* 减少标题下方的外边距 */
 }
@@ -39,10 +41,12 @@ h1 {
 h2 {
     color: #000; 
     margin-top: 30px;
-    /* 将左边框改为右边框 */
-    border-right: 4px solid #003366; 
-    /* 调整内边距到右边，让标题和竖线有合适间距 */
-    padding-right: 10px; 
+    /* 修改为底部边框 */
+    border-bottom: 4px solid #003366; 
+    border-right: none;
+    /* 调整内边距到下方，让标题和横线有合适间距 */
+    padding-bottom: 10px; 
+    padding-right: 0; 
     /* 让标题文本靠右对齐，视觉效果更好 */
     text-align: right; 
 }
@@ -117,5 +121,14 @@ h3 {
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
+}
+
+.white-board {
+    background-color: white; /* 白色背景，模拟白板 */
+    border: 1px solid #ccc; /* 灰色边框 */
+    padding: 10px; /* 内边距 */
+    margin-top: 10px; /* 与上方元素的间距 */
+    width: 100%; /* 宽度占满父容器 */
+    box-sizing: border-box; /* 包含边框和内边距在宽度内 */
 }
 
