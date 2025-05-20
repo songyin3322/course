@@ -121,3 +121,7 @@ ul {
   width: 80px;
   margin: 10px 20px;
 }
+.footer_right img {
+    margin-top: 40px; /* 向下移动的距离，可按需调整 */
+    margin-left: -20px; /* 向左移动的距离，可按需调整，负值向左，正值向右 */
+}
