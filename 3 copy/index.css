@@ -1,6 +1,6 @@
 * {
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 body {
   background: #f0f0f0;
@@ -23,7 +23,7 @@ ul {
   height: 30px;
   margin-right: 30px;
 }
-.header > .solid {
+.header > .Seoul{
   height: 4px;
   width: 950px;
   background: #000;
@@ -78,10 +78,13 @@ ul {
   justify-content: space-between;
 }
 .terms-ul {
-  display: flex;
+  display: flex; /* 使用弹性布局让列表项在同一行 */
+  flex-wrap: nowrap; /* 禁止换行 */
   align-items: center;
   color: #666;
+  white-space: nowrap; /* 防止列表项内文字换行 */
 }
+
 .terms-ul > li {
   padding: 0px 20px;
   font-size: 14px;
@@ -104,15 +107,8 @@ ul {
   display: flex;
   align-items: center;
 }
-.footer_right > img:nth-child(1) {
-  width: 98px;
-  height: 48px;
-  margin-right: 20px;
-}
-.footer_right > img:nth-child(2) {
-  width: 59px;
-  height: 43px;
-}
+
+
 .fl_img {
   display: flex;
   align-items: center;
@@ -121,7 +117,32 @@ ul {
   width: 80px;
   margin: 10px 20px;
 }
-.footer_right img {
-    margin-top: 40px; /* 向下移动的距离，可按需调整 */
-    margin-left: -20px; /* 向左移动的距离，可按需调整，负值向左，正值向右 */
+
+/* 修改后的样式 */
+.privacy-policy {
+  font-weight: bold;
+  color: #333; /* 深黑色，可根据需求调整颜色值 */
+}
+
+/* 增加 terms-ul 底部外边距，调小间隙 */
+.terms-ul {
+  margin-bottom: 10px; /* 可根据需求进一步调整间隙大小 */
+}
+
+/* 增加 area-address 底部外边距，调小间隙 */
+.area-address {
+  margin-bottom: 10px; /* 可根据需求进一步调整间隙大小 */
+}
+
+
+/* 调整 5.png 的显示大小 */
+img[src$="5.png"] {
+  width: 100px; /* 可根据需求调整宽度 */
+  height: auto; /* 保持图片比例 */
+}
+
+/* 调整 6.png 的显示大小 */
+img[src$="6.png"] {
+  width: 100px; /* 可根据需求调整宽度 */
+  height: auto; /* 保持图片比例 */
 }
